@@ -1,0 +1,110 @@
+body {
+    background: url(https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&h=350)center center/cover no-repeat;
+    margin: 0 auto 20px auto;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.py-0 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #9E1030;
+}
+
+a.navbar-brand {
+    font-size: 2em;
+    height: 100%;
+    background: #9E1030;
+    font-weight: 700;
+}
+
+a.nav-link {
+    font-size: 1em;
+}
+
+nav> div.container {
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav>div>div>ul>li>a {
+    color: #111111;
+    font-weight: 700;
+}
+
+nav>div>div>ul>li>a:hover {
+    color: #f2f2f2;
+    background-color: #9E1030;
+}
+
+button.navbar-toggler {
+    background: #d3d3d3;
+}
+
+#content {
+    border: 2px solid #838487;
+    width: 80%;
+    max-width: 700px;
+    margin: 60px auto 100px auto;
+    padding: 20px 20px 50px 20px;
+    height: 550px;
+    background:  #f2f2f2;
+}
+
+.info {
+    /* background: yellow; */
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.title {
+    /* background: blue; */
+    margin-bottom: 15px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.type {
+    height: 34px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-radius: 4px;   
+}
+
+#textarea {
+    /* background: orange; */
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    padding: 40px;
+    box-sizing: 
+}
+
+.btn {
+    background: white;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #666666;
+    border-top: 2px solid#9E1030;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}

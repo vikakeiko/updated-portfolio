@@ -1,0 +1,73 @@
+body {
+    background: url(https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&h=350)center center/cover no-repeat;
+    margin: 0 auto 20px auto;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.navbar {
+    /* margin-bottom: 10px; */
+    /* padding: 20px; */
+    background: #f2f2f2;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.py-0 {
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    border-bottom: 2px solid #9E1030;
+}
+
+a.navbar-brand {
+    font-size: 2em;
+    height: 100%;
+    background: #9E1030;
+    font-weight: 700;
+}
+
+a.nav-link {
+    font-size: 1em;
+    color: #111111;
+    font-weight: 700;
+}
+
+nav>div>div>ul>li>a:hover {
+    color: #f2f2f2;
+    background-color: #9E1030;
+}
+
+button.navbar-toggler {
+    background: #d3d3d3;
+}
+
+#container {
+    background: #fff;
+    display: block;
+    /* width: 100%; */
+    max-width: 70%;
+    /* margin: 150px auto; */
+    padding: 30px;
+    /* height: 800px; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* #container img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+} */
+
+img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #666666;
+    border-top: 2px solid#9E1030;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
